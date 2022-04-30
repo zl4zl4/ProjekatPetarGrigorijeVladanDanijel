@@ -5,10 +5,10 @@ class Program {
   static decimal Unos()
         {
             decimal unesenibroj;
-            Console.WriteLine("Unesite koliko para zelite da uplatite");
+            Console.WriteLine("Unesite koliko para želite da uplatite na vaš račun");
             while (!decimal.TryParse(Console.ReadLine(), out unesenibroj) || unesenibroj <= 0 )
             {
-                Console.WriteLine("Cifra koju zelite da uplatite nije ispravno unet,unesite ponovo");
+                Console.WriteLine("Cifra koju želite da uplatite nije ispravno uneta,molimo vas unesite je ponovo");
             }
             return unesenibroj;
         }
